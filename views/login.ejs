@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-image: url("background1.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            -webkit-text-stroke: 1px black;
+        }
+        .cont {
+            position:relative;
+            left:1100px;
+            top:150px;
+            color: white;
+            box-sizing: border-box;
+        }
+        .top-left {
+            position: absolute;
+            top: 150px;
+            left: 100px;
+            text-transform: uppercase;
+            font-size: 100px;
+            scroll-margin-bottom:   30px ;
+            color: darkslategrey;
+            font-style: normal;
+            font-weight: bold;
+            
+          }
+          .description{
+            position: absolute;
+            top: 300px;
+            left: 100px;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 30px;
+            scroll-margin-bottom:  30px ;
+            color: grey;
+            
+          }
+          .input{
+            width: 370px;
+            height: 60px;
+            
+          }
+        .reg{
+            color: black;
+        }
+         .log{
+            
+            width: 370px;
+            height: 60px;
+            background-color: darkslategray;
+            color: whitesmoke;
+            font-size: 80;
+            align-self: center;
+         }
+         .tex{
+            color: darkslategray;
+         }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+    </head>
+
+<body>
+    <div class="container">
+       
+    </div>
+    <div class="cont">
+        <h2 hidden id="regsuc">Resgistration was succesful</h2>
+        <form method="POST" action="/home">
+            <div  class = "tex">
+                Username
+            </div>
+            
+            <input class = "input" type="text" name="username" >
+            <br>
+            <div  class = "tex">
+               
+                Password
+            </div>
+            <input class = "input" type="password" name="password" >
+            <br><br>
+            <input class ="log"type="submit" value="Login" >
+        </form>
+        <br>
+        <a class="reg" href="registration"> I dont have an account </a>
+    </div>
+    <div class="top-left">BYTE ME</div>
+    <div class="description">Explore the world through ByteMe and 
+        find <br/> out your next destination </div>
+</body>
+</html>
