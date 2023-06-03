@@ -17,3 +17,7 @@ This project was made with purpose of learning Node.Js and CSS and HTML.
 
 Please Note this Project will be a continuing project that we will still work on to be able to improve it further while also learning new skills.<br/>
 Front End will be majorly improved overtime.
+
+
+<hr>
+NOTE: Please Unzip the node_modules.rar before running
